@@ -1,0 +1,29 @@
+Playlist Rec based on Show -User Stories:
+As a fan of a particular show, I want to listen to music that reminds me of it.
+Non-functional requirement: Reccomend users a playlist based on any show in MAL, regardless of popularity 
+  functional requirement: Obtain data about a show's genre(s) through API and map the genre to a playlist category
+  functional requirement: Use diff API to retrieve a playlist in that category.
+Non-functional requirement:As a repeat user, I want to be able to discover new music -nf: present the user with multiple playlist options
+  functional requirement: Use genres retrieved from MAL to generate multiple category keywords
+  functional requirement: Through Spotify API obtain multiple (maybe a user specified number?) playlists in the same category
+
+Online photo sharing website
+User story 1: As a new user I want to register for a unique account so I can keep track of my online activities in a private safe environment.
+Non-functional requirement: allow account registration and login, keep track of private informations
+  functional requirement: use MySQL to create database to store the account information 
+  functional requirement: use python to connect the Flask with MySQL to implement registration and login.
+User story 2: As an existed user I want to comment and like my friends' post so I can achieve user interactions.
+Non-functional requirement: allow friends to comment and like posts.
+  functional requirement: use database to keep track of friends, comments, and likes. 
+  functional requirement: use the friends table to give authorization to comment and like.
+
+Project Idea: Rental Price Analysis
+User stories:
+as a potential tenant, I want to compare the price between rental listings to city housing data. 
+non functional requirement: look up and compare the listing prices
+  function requirements: Obtain public data through API and calculate differences
+  function requirements: Indicate if rental listing is overpriced or underpriced
+as a leaser, I want to know if I am listing my property at the most competitive price
+non functional requirement: get a price recommendation
+  function requirements: Obtain public data through API and calculate differences
+  function requirements: calculate ideal price given desired profit as input
