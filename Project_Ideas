@@ -9,13 +9,13 @@ Non-functional requirement:As a repeat user, I want to be able to discover new m
 
 Online photo sharing website
 User story 1: As a new user I want to register for a unique account so I can keep track of my online activities in a private safe environment.
-Non-functional requirement: allow account registration and login, keep track of private informations
-  functional requirement: use MySQL to create database to store the account information 
-  functional requirement: use python to connect the Flask with MySQL to implement registration and login.
-User story 2: As an existed user I want to comment and like my friends' post so I can achieve user interactions.
+Non-functional requirement: allow account registration and login
+  functional requirement: use API to connect with database for account logins.
+  functional requirement: use database to store registration and login informations.
+User story 2: As an existed user I want to interact with friends.
 Non-functional requirement: allow friends to comment and like posts.
-  functional requirement: use database to keep track of friends, comments, and likes. 
-  functional requirement: use the friends table to give authorization to comment and like.
+  functional requirement: use API to keep track of user authorizations to allow comment and like. 
+  functional requirement: create specific tables to store comments and likes to present.
 
 Project Idea: Rental Price Analysis
 User stories:
